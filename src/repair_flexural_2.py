@@ -105,7 +105,7 @@ def repair_flexural_2(
     n_obj_func_D_calls += 1
 
     best_objD = objD
-    print('best_objD', best_objD)
+#    print('best_objD', best_objD)
 #    print('sec_mom_areas', sec_mom_areas, sum(sec_mom_areas))
 #    print('cos_sin', cos_sin)
 #    print('lampamD', lampamD)
@@ -114,7 +114,7 @@ def repair_flexural_2(
 
     ind_step = 0
     for index, ind_ply_1 in enumerate(ind_2[:-1]):
-        print('ind_ply_1', ind_ply_1)
+#        print('ind_ply_1', ind_ply_1)
 
         objD = 1e10 * np.ones((parameters.n_D2 - 1,), float)
 
@@ -311,7 +311,7 @@ def repair_flexural_2(
             ind_min = np.argmin(objD)
             ind_ply_2 = ind_2[index + 1:][ind_min]
 
-            print('CHANGE')
+#            print('CHANGE')
 #            print('objD', objD)
 #            print('ind_min', ind_min, 'ind_ply_2', ind_ply_2)
 
@@ -329,11 +329,11 @@ def repair_flexural_2(
                 cos_sin[ind_ply_1:ind_ply_2 + 1, :] = np.vstack((
                     cos_sin[ind_ply_2, :], cos_sin[ind_ply_1:ind_ply_2, :]))
 
-        print()
-        print('after iteration')
-        print_ss(ss)
-        print('best_objD', best_objD)
-        print('objD', objD)
+#        print()
+#        print('after iteration')
+#        print_ss(ss)
+#        print('best_objD', best_objD)
+#        print('objD', objD)
 
         ind_step += 1
 

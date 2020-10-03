@@ -155,7 +155,7 @@ def repair_diso_contig_from_outside_sym(
             remaining_plies[counter] = ss[ind]
         else:
             remaining_plies[counter] = ply_queue.pop(0)
-    print('remaining_plies', remaining_plies)
+#    print('remaining_plies', remaining_plies)
 
     if constraints.dam_tol:
         if hasattr(constraints, 'dam_tol_rule') \
@@ -189,7 +189,7 @@ def repair_diso_contig_from_outside_sym(
                 stack_test, constraints.n_contig_c):
             continue
         good_permut.append(np.array(elem, int))
-    print('good_permut', good_permut)
+#    print('good_permut', good_permut)
 
     good_permut = smallest_row(good_permut)
     if good_permut is None:
