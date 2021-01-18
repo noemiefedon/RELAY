@@ -6,8 +6,8 @@
 The files correspond to the article in the Journal Composites Structures: 
 https://doi.org/10.1016/j.compstruct.2020.113448 (2021)
 
-RELAY is a deterministic method for repairin composite laminate lay-ups to satisfy 
-lay-up design guidelines.
+RELAY is a deterministic method for repairing composite laminate lay-ups to satisfy 
+stacking-sequence design guidelines.
 
 --------------------------------------------------------------------------
 Requirements:
