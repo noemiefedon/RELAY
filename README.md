@@ -30,7 +30,7 @@ In order to use it:
 3. Change the settings and run one of the files used to test RELAY: 
 run_repair_in_plane.py, run_repair_out_of_plane.py or run_repair.py.
 
-Refer to the documentation for more detail.
+Refer to the documentation for more details.
 --------------------------------------------------------------------------
 Folder Structure
 
