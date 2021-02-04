@@ -125,12 +125,12 @@ def save_parameters_LAYLA_V02(filename, parameters):
 
     table_param.loc[0, 'maximum number of iterations'] \
     = parameters.n_outer_step
-    table_param.loc[0, 'global_branching_limit'] \
-    = parameters.global_branching_limit
-    table_param.loc[0, 'global_branching_limit_p'] \
-    = parameters.global_branching_limit_p
-    table_param.loc[0, 'local_branching_limit'] \
-    = parameters.local_branching_limit
+    table_param.loc[0, 'global_node_limit'] \
+    = parameters.global_node_limit
+    table_param.loc[0, 'global_node_limit_p'] \
+    = parameters.global_node_limit_p
+    table_param.loc[0, 'local_node_limit'] \
+    = parameters.local_node_limit
     table_param.loc[0, 'repair_membrane_switch'] \
     = parameters.repair_membrane_switch
     table_param.loc[0, 'repair_flexural_switch'] \

@@ -156,7 +156,7 @@ def d_from_lampam(lampam, mat, sym=False):
 if __name__ == "__main__":
     print('*** Test for the functions of the module ABD ***\n')
     import sys
-    sys.path.append(r'C:\LAYLA_and_BELLA')
+    sys.path.append(r'C:\BELLA_and_LAYLA')
     from CLA.lampam_functions import calc_lampam
     from BELLA.materials import Material
     ss = np.array([0, 45, 45, -45, -45, 90, 0, 90])

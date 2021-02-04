@@ -250,7 +250,7 @@ if __name__ == "__main__":
     'Test'
 
     import sys
-    sys.path.append(r'C:\LAYLA_and_BELLA')
+    sys.path.append(r'C:\BELLA_and_LAYLA')
     from LAYLA_V01.constraints import Constraints
     from divers.pretty_print import print_ss, print_list_ss
 
